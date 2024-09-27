@@ -23,4 +23,5 @@ const nomeHeroi = prompt("Digite o nome do herói:");
 const xpHeroi = parseInt(prompt("Digite a quantidade de XP do herói:"));
 
 const nivel = classificarHeroi(nomeHeroi, xpHeroi);
+
 console.log(`O herói de nome ${nomeHeroi} está no nível de ${nivel}`);
